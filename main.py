@@ -12,12 +12,6 @@ st.markdown("""
     body {
         background-color: #f5f5f5;
     }
-    .stApp {
-        background-color: #ffffff;
-        border-radius: 20px;
-        padding: 2rem;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    }
     .stButton button {
         background-color: #0e76a8;
         color: white;
