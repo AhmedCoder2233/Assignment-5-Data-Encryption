@@ -18,15 +18,6 @@ st.markdown("""
         padding: 2rem;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     }
-    h1, h2, h3, h4 {
-        color: #0e76a8;
-    }
-    .stTextInput > div > input {
-        background-color: #f0f2f6;
-        border-radius: 10px;
-        padding: 0.75rem;
-        border: 1px solid #d9d9d9;
-    }
     .stButton button {
         background-color: #0e76a8;
         color: white;
