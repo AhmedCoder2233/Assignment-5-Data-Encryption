@@ -76,7 +76,7 @@ if add_selectbox == "Register/Login":
 
     if st.button("Register Now"):
         reg = register(user_email,user_password)
-        st.success(reg)
+        st.info(reg)
 
     if st.button("Login Now"):
         log = login(user_email, user_password)
@@ -95,7 +95,8 @@ elif add_selectbox == "Generate_Key":
             data[email]["passkey"] = key_generate
             save_data(data)
             st.success(data[email]["passkey"])
-            time.sleep(3)
+            st.warning("Key is Just for 10 Sec copy it or it will Hide!")
+            time.sleep(10)
             st.rerun()
         elif data[email]["passkey"]:
             st.info("Key already generated")
